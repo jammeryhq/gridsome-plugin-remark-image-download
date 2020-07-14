@@ -1,19 +1,19 @@
 {
-    "name": "@noxify/gridsome-plugin-remark-image-download",
+    "name": "@jammeryhq/gridsome-plugin-remark-image-download",
     "version": "1.1.5",
     "description": "Gridsome Remark plugin to download remote images",
     "main": "src/plugin.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Marcus Reinhardt <webstone@gmail.com>",
-    "homepage": "https://github.com/noxify/gridsome-plugin-remark-image-download",
+    "author": "JammeryHQ <hello@jammeryhq.com>",
+    "homepage": "https://github.com/jammeryhq/gridsome-plugin-remark-image-download",
     "repository": {
         "type": "git",
-        "url": "https://github.com/noxify/gridsome-plugin-remark-image-download.git"
+        "url": "https://github.com/jammeryhq/gridsome-plugin-remark-image-download.git"
     },
     "bugs": {
-        "url": "https://github.com/noxify/gridsome-plugin-remark-image-download/issues"
+        "url": "https://github.com/jammeryhq/gridsome-plugin-remark-image-download/issues"
     },
     "license": "MIT",
     "publishConfig": {

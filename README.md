@@ -5,7 +5,7 @@ Simple plugin for `@gridsome/transformer-remark` to enable the download of remot
 ## Install
 
 ```
-npm install -s https://github.com/noxify/gridsome-plugin-remark-image-download.git
+npm install -s https://github.com/jammeryhq/gridsome-plugin-remark-image-download.git
 
 ```
 
@@ -24,7 +24,7 @@ module.exports = {
     //Add markdown support to all file-system sources
     remark: {
       plugins: [
-        ['@noxify/gridsome-plugin-remark-image-download', {
+        ['@jammeryhq/gridsome-plugin-remark-image-download', {
           targetPath: './src/assets/contentImages'
         }]
       ]
