@@ -1,17 +1,37 @@
-# Gridsome Remark Plugin - Image Downloader
+<div align="center">
 
-Simple plugin for `@gridsome/transformer-remark` to enable the download of remote images.
+<a href="https://www.jammeryhq.com" title="JammeryHQ" target="_blank">
+
+  <img src="./jammeryhq.png" width="128" />
+  
+</a>
+
+<p>
+Fast-track your JAMstack development & learning
+</p>
+</div>
+
+<hr />
+
+# About this plugin
+
+Simple plugin for remark to enable the download of remote images.
 
 ## Install
 
-```
-npm install -s https://github.com/jammeryhq/gridsome-plugin-remark-image-download.git
+```bash
+npm install https://github.com/jammeryhq/gridsome-plugin-remark-image-download.git
 
+# or
+
+yarn add https://github.com/jammeryhq/gridsome-plugin-remark-image-download.git
 ```
 
-## Setup
+## How to use
 
 ```js
+//gridsome.config.js
+
 module.exports = {
   siteName: 'Gridsome',
   plugins: [
@@ -31,7 +51,6 @@ module.exports = {
     }
   }
 }
-
 ```
 
 ## Documentation
